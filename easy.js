@@ -31,5 +31,25 @@ sumup : function(arr){
     sum=sum+i;
   }
   return sum;
-}
+},
+
+sort : function(arr){
+  var tmp=arr[0];
+  for(var i=0; i<arr.length; i++){
+    if(tmp<arr[i]){
+      arr[i]=tmp;
+    }
+  }
+    console.log(arr[i]);
+  },
+
+ factorial : function(factor){
+   var i=factor;
+   while(i>0){
+     i--;
+     if(i==0)break;
+     factor=factor*i;
+   }
+   return factor;
+ }
 }
